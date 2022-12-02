@@ -45,6 +45,8 @@ dt=DecisionTreeClassifier(criterion='entropy')
 dt.fit(x_train,y_train)
 y_pred=dt.predict(x_test)
 
+y_pred = dt.predict(x_test)
+
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
@@ -57,7 +59,8 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ![Screenshot 2022-11-22 225809](https://user-images.githubusercontent.com/94288340/203382439-cc6a58ef-d3dc-49af-a6eb-e55da61b400e.png)
 ![Screenshot 2022-11-22 225829](https://user-images.githubusercontent.com/94288340/203382478-75ffe7c6-cf19-468e-8a68-bf67a371b3a0.png)
 ![Screenshot 2022-11-22 225848](https://user-images.githubusercontent.com/94288340/203382509-e804a744-dc29-412f-91dc-3745471518b6.png)
-![Screenshot 2022-11-22 225933](https://user-images.githubusercontent.com/94288340/203382541-02fd1603-5d65-4bb9-b0ef-ed6b7b1eb46a.png)
+![Screenshot 2022-12-02 151956](https://user-images.githubusercontent.com/94288340/205265241-988a2aee-86fa-455f-9087-db9cd6dc012e.png)
+
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
